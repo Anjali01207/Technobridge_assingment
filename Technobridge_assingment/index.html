@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+        <div class="logo">
+           <img src="logo.png">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Helpdesk">Helpdesk</a></li>
+            <li><a href="#Exclusive Franchise">Exclusive Franchise</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section">
+  <div class="hero-content">
+      <img src="AI-ML.jpg" alt="Course Image" class="hero-image">
+      <div class="hero-text">
+          <h1>Advance Program in
+            Artifical Intelligence And Machine Learning</h1>
+          <p>Artificial Intelligence and Machine Learning is a branch of study or discipline which includes theories, standards, methods and innovations of various different domains like mathematics, cognitive science, electronics and embedded systems to make intelligent systems that mimic human behaviour.</p>
+      </div>
+  </div>
+</section>
+
+<section id="slider">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>In this Section</h2>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#curriculum">Curriculum</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#Eligibilty">Eligibilty</a></li>
+            <li><a href="#Course_Syllabus">Course Syllabus</a></li>
+        </ul>
+    </aside>
+    <div class="container">
+    <main class="content">
+        <!-- Tabs -->
+         <div class="over-view">
+        <section id="overview">
+            <h1>Course Overview</h1>
+            <div class="tabs">
+                <button class="tab-button active" >Description</button>
+                <button class="tab-button" >Instructor</button>
+                <button class="tab-button" >Reviews</button>
+            </div>
+            <div class="tab-content active" id="tab1">
+                <p>Unleash your career potential with our AI ML courses. Tailored for diverse industries & roles at top global firms, our AI and ML courses feature key tools. Enhance your AI knowledge & business acumen. Join the job market, and become a sought-after professional!.</p>
+                <img src="course_image.jpg" alt="Clinical Research">
+            </div>
+        </section>
+    </div>
+<br><br><br>
+        <!-- Accordion -->
+        <section id="curriculum">
+            <h2>Curriculum</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button">Module 1: Introduction</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Many companies will market their systems or services as “powered by AI” when it's not often the case. We will always find these instances of gimmicky marketing, so it is helpful to first understand what is AI and ML, and the different terms, as there are many relevant use cases of AI and ML in our world today. </li>
+                                
+                               <li>Artificial Intelligence is a technique for building systems that mimic human behavior or decision-making. 
+
+                                Machine Learning is a subset of AI that uses data to solve tasks. These solvers are trained models of data that learn based on the information provided to them. This information is derived from probability theory and linear algebra. ML algorithms use our data to learn and automatically solve predictive tasks. 
+                                
+                                Deep Learning is a subset of machine learning which relies on multilayered neural networks to solve these tasks.</li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Module 2: Types of Machine Learning</button>
+                    <div class="accordion-content">
+                        <ol>
+                            <li>In supervised machine learning, we know about the data and the problem. Think of it as, “given a set of features x, we know the value of y,” and so in supervised learning, we create a function that approximates results based on some set of data. 
+
+                                There are two kinds of supervised learning: classification and regression. In a classification problem, we assign data to categories. For example, given a client’s medical information, they test positive or negative for diabetes. In classifications, our trained models, known as classifiers, classify data points into different groups. 
+                                
+                                If we instead wanted to solve a different problem, like predicting the future value of GameStop stock given the stock market history, we'd turn to a regression. In regression, we return numerical values. Given some sentences, this is the percent likelihood the person is happy or sad. </li><br>
+                            <li>In unsupervised machine learning, our data is unlabelled. There are two forms of unsupervised machine learning: clustering and dimension reduction. 
+
+                                In clustering, we learn more about data points as they are clustered, or grouped together. This allows learned models to understand a data set, detect anomalies, and assign relationships between points, often allowing users to develop new categories or features about the data set. 
+                                
+                                In dimension reduction, we plot data points across different dimensions and feature sets to understand our data sets. This allows for techniques like feature selection or transformation. Dimension reduction solves the curse of dimensionality. The more features to a data set, the more data is needed, and processing many noisy features can impact the performance of an ML model, so unsupervised machine learning techniques are often paired with supervised or reinforcement learning algorithms.</li><br>
+                            <li>In reinforcement learning (RL), we are learning models over time. A common technique is to utilize deep learning with reinforcement learning to derive relationships between features of a data set that may not otherwise be solved through human research. Deep learning RL has been very successful in the field of medicine as of late.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Table -->
+        <section id="pricing">
+            <h2>Pricing Plans</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Features</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>Access to course materials</td>
+                        <td>$49</td>
+                    </tr>
+                    <tr>
+                        <td>Pro</td>
+                        <td>Materials + Live Sessions</td>
+                        <td>$99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Eligibility Section -->
+<section id="Eligibilty">
+    <h2>Eligibility Criteria</h2>
+    <p>To enroll in the Advance Program in Artificial Intelligence and Machine Learning, applicants must meet the following eligibility criteria:</p>
+    <ul>
+        <li>Basic knowledge of programming languages such as Python or Java.</li>
+        <li>A degree in Computer Science, Engineering, or a related field.</li>
+        <li>Familiarity with mathematics, particularly in areas such as linear algebra and statistics.</li>
+        <li>A passion for learning and a strong interest in AI and ML technologies.</li>
+        <li>Previous experience in data analysis or machine learning projects is a plus.</li>
+    </ul>
+</section>
+
+<!-- Course Syllabus Section -->
+<section id="Course_Syllabus">
+    <h2>Course Syllabus</h2>
+    <p>The Advance Program in Artificial Intelligence and Machine Learning covers a comprehensive range of topics designed to equip students with the necessary skills and knowledge. Below is an outline of the key topics that will be covered throughout the course:</p>
+    <ul>
+        <li>Introduction to Artificial Intelligence and Machine Learning</li>
+        <li>Data Preprocessing and Cleaning</li>
+        <li>Supervised Learning Techniques</li>
+        <li>Unsupervised Learning Techniques</li>
+        <li>Deep Learning and Neural Networks</li>
+        <li>Natural Language Processing</li>
+        <li>Model Evaluation and Validation</li>
+        <li>Deployment of Machine Learning Models</li>
+        <li>Ethics in AI and ML</li>
+        <li>Capstone Project: Real-world Application of AI and ML</li>
+    </ul>
+</section>
+    </main>
+</div>
+</div>
+</section>
+<footer class="section-p1">
+    <div class="col">
+       <img class="logo" src="" alt="">
+       <h4>Contact</h4> 
+       <i class="fa-solid fa-envelope"></i><br><p>helpcenter@gmail.com</p>
+       <i class="fa-solid fa-phone"></i><br> <p>+01 2222 365/ (+91) 98 2768 7253</p>
+       <div class="follow">
+           <h4>Follow Us</h4>
+           <div class="icon">
+               <i class="fab fa-facebook-f"></i>
+               <i class="fab fa-twitter"></i>
+               <i class="fab fa-instagram"></i>
+               <i class="fab fa-pinterest-p"></i>
+               <i class="fab fa-youtube"></i>
+           </div>
+       </div>
+    </div>
+    <div class="col">
+       <h4>About</h4>
+       <a href="#">About Us</a>
+       <a href="#">Delivery Information</a>
+       <a href="#">Privacy Policy</a>
+       <a href="#">Terms and Conditions</a>
+       <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+       <h4>My Account</h4>
+       <a href="#">Sign In </a>
+       <a href="#">View Cart</a>
+       <a href="#">My Wishlist</a>
+       <a href="#">Track My Order</a>
+       <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+     <h4>Install App</h4>
+     <p>From App Store or Google Play</p>
+     <div class="row">
+       <img src="">
+       <img src="">
+     </div>
+     <p>Secured Payment Gateways</p>
+     <img src="">
+    </div>
+    <div class="copyright">
+       <p>&#169 2024, Anjali Nalawade</p>
+    </div>
+</footer>
+        
+
+    <script src="logic.js"></script>
+</body>
+</html>
